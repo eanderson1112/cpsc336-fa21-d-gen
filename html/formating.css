@@ -1,0 +1,14 @@
+.center {
+    position: center;
+    text-align: center;
+    font-family: sans-serif, "Times New Roman", Helvetica;}
+
+body {background-color: cadetblue;
+    color: aliceblue}
+
+a {color: yellow; text-decoration: none;}
+a:hover {color: blue; text-decoration: none;}
+
+nav ul {font-family: "Helvetica Neue", "Times New Roman", Arial;
+    font-size: 16pt;
+    list-style-type: none;}
