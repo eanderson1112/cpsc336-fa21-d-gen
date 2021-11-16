@@ -6,7 +6,9 @@
 </head>
 <body>
 <?php
+    require "connect.php";
     $query = "SELECT * FROM ?";
+    $res=mysqli_query($conn, $query);
 ?>
 </body>
 </html>
