@@ -13,13 +13,13 @@
 <?php
     require "connect.php";
     $ID = $_POST["ID"];
-    $query = "DELETE FROM ? WHERE ID=".$ID;
+    $query = "DELETE FROM ? WHERE ID='$ID'";
     $res=mysqli_query($conn, $query);
     if($res) {
-        echo"<p>".$ID." was successfully deleted</p>";
+        echo"<p>'$ID' was successfully deleted</p>";
     }
     else{
-        echo"<p>".$ID." failed to be deleted</p>";
+        echo"<p>'$ID' failed to be deleted</p>";
     }
 ?>
 </body>
