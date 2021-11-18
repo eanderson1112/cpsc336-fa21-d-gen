@@ -7,8 +7,11 @@
 </head>
 <body>
     <form action="add.php" method="post">
+    <label for="ID">Item ID:</label><br>
     <input type = "text" name = "ID" id = "ID"><br>
+    <label for="Name">Item Name:</label><br>
     <input type = "text" name = "Name" id = "Name"><br>
+    <label for="QTY">Quantity:</label><br>
     <input type = "text" name = "QTY" id = "QTY"><br>
     <input type ="submit" name = "Add Item">
     </form>
