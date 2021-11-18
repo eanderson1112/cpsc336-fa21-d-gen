@@ -1,14 +1,24 @@
 .center {
     position: center;
+    background-color: green;
     text-align: center;
+    padding: 15px;
+    border: 5px solid dodgerblue;
+    shadow: 2px;
+    text-shadow: 2px 2px black;
     font-family: sans-serif, "Times New Roman", Helvetica;}
 
-body {background-color: cadetblue;
+body {background-color: red;
     color: aliceblue}
+
+.logo {alignment: right;}
 
 a {color: yellow; text-decoration: none;}
 a:hover {color: blue; text-decoration: none;}
 
 nav ul {font-family: "Helvetica Neue", "Times New Roman", Arial;
     font-size: 16pt;
-    list-style-type: none;}
+    padding: 10px;
+    border: 6px solid darkblue;
+    display: inline-block;
+    list-style: none;}
