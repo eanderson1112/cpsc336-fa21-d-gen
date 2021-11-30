@@ -13,7 +13,7 @@
 <?php
     require "connect.php";
     $ID = $_POST["ID"];
-    $query = "DELETE FROM ? WHERE ID='$ID'";
+    $query = "DELETE FROM Product WHERE ID='$ID'";
     $res=mysqli_query($conn, $query);
     if($res) {
         echo"<p>'$ID' was successfully deleted</p>";
