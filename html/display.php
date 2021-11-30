@@ -11,7 +11,7 @@
     $query = "SELECT * FROM Product";
     $result=mysqli_query($conn, $query);
     echo "<b>Item Name<br>Item ID<div>Qty</div></b>";
-    while ($row = mysqli_fetch_row($result)){
+    while ($row = mysqli_fetch_assoc($result)){
         echo $row["name"]."<br>";
         echo $row["barcode"]."<div>".$row['quantity']."</div>";
     }
