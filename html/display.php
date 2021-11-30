@@ -8,7 +8,7 @@
 <body>
 <?php
     require "connect.php";
-    $query = "SELECT * FROM ?";
+    $query = "SELECT * FROM Product";
     $result=mysqli_query($conn, $query);
     echo "<b>Item Name<br>Item ID<div>Qty</div></b>";
     while ($row = mysqli_fetch_row($result)){
