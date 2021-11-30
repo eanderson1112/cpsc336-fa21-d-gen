@@ -12,8 +12,8 @@
     $result=mysqli_query($conn, $query);
     echo "<b>Item Name<br>Item ID<div>Qty</div></b>";
     while ($row = mysqli_fetch_row($result)){
-        echo $row["Item_Name"]."<br>";
-        echo $row["ID"]."<div>".$row['quantity']."</div>";
+        echo $row["name"]."<br>";
+        echo $row["barcode"]."<div>".$row['quantity']."</div>";
     }
 ?>
 </body>
