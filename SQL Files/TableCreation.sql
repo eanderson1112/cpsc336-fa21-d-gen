@@ -9,4 +9,4 @@ CREATE TABLE Product
     name     VARCHAR(15) NOT NULL,
     quantity INT,
     PRIMARY KEY (barcode)
-);;
+);
