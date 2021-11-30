@@ -20,7 +20,7 @@
     $ID = $_POST["ID"];
     $Name= $_POST["Name"];
     $QTY = $_POST["QTY"];
-    $query = "INSERT INTO ? VALUES('$ID','$Name','$QTY')";
+    $query = "INSERT INTO Product VALUES('$ID','$Name','$QTY')";
     $res=mysqli_query($conn, $query);
     if($res){
         echo $Name." successfully added to inventory";
