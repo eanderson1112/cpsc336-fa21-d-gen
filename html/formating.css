@@ -22,3 +22,14 @@ nav ul {font-family: "Helvetica Neue", "Times New Roman", Arial;
     border: 6px solid darkblue;
     display: inline-block;
     list-style: none;}
+
+.item{
+
+}
+
+.box{
+    border:3px; 
+    border-style:solid; 
+    border-color:#FF0000;
+    padding: 1em;
+}
