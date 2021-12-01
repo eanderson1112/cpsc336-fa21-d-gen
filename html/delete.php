@@ -14,12 +14,13 @@
     </ul>
 </nav>
 <body>
+    <h1>Delete an item from the inventory</h1>
+    <form action="<?php echo $_SERVER['PHP_SELF'];?>" method="post">
+        <label for="ID">Item ID:</label><br>
+        <input type = "text" name = "ID" id = "ID"><br>
+        <input type ="submit" name = "Delete Item">
+    </form>
     <div class="box">
-        <h1>Delete an item from the inventory</h1>
-        <form action="delete.php" method="<?php echo $_SERVER['PHP_SELF'];?>">
-            <input type = "text" name = "ID" id = "ID"><br>
-            <input type ="submit" name = "Delete Item">
-        </form>
         <?php
             if ($_SERVER["REQUEST_METHOD"] == "POST") {
             require "connect.php";

@@ -15,7 +15,7 @@
 </nav>
 <body>
     <h1>Add an Item to the inventory</h1>
-    <form class = box action="add.php" method="<?php echo $_SERVER['PHP_SELF'];?>">
+    <form class = box action="<?php echo $_SERVER['PHP_SELF'];?>" method="post">
     <label for="ID">Item ID:</label><br>
     <input type = "text" name = "ID" id = "ID"><br>
     <label for="Name">Item Name:</label><br>
