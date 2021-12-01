@@ -14,7 +14,7 @@
     </ul>
 </nav>
 <body>
-<h1>All the items in the inventory</h1>
+<h1>All items currently in the inventory</h1>
     <div class = box>
         <div style="font-weight:bold">Item Name<br>Item ID<div>Qty</div></div>
         <hr>
