@@ -16,7 +16,8 @@
 <body>
 <h1>All the items in the inventory</h1>
     <div class = box>
-        <div style="font-weight:bold">Item Name<br>Item ID<div>Qty</div>
+        <div style="font-weight:bold">Item Name<br>Item ID<div>Qty</div></div>
+        <hr>
             <?php
                 require "connect.php";
                 $query = "SELECT * FROM Product";
