@@ -1,17 +1,8 @@
-.center {
-    position: center;
-    background-color: green;
-    text-align: center;
-    padding: 15px;
-    border: 5px solid dodgerblue;
-    shadow: 2px;
-    text-shadow: 2px 2px black;
-    font-family: sans-serif, "Times New Roman", Helvetica;}
 
 body {background-color: red;
     color: aliceblue}
 
-.logo {alignment: right;}
+
 
 a {color: yellow; text-decoration: none;}
 a:hover {color: blue; text-decoration: none;}
@@ -22,6 +13,20 @@ nav ul {font-family: "Helvetica Neue", "Times New Roman", Arial;
     border: 6px solid darkblue;
     display: inline-block;
     list-style: none;}
+label{
+    padding: 10px;
+}
+.center {
+    position: center;
+    background-color: green;
+    text-align: center;
+    padding: 15px;
+    border: 5px solid dodgerblue;
+    shadow: 2px;
+    text-shadow: 2px 2px black;
+    font-family: sans-serif, "Times New Roman", Helvetica;}
+
+.logo {alignment: right;}
 
 .item{
 
@@ -30,6 +35,6 @@ nav ul {font-family: "Helvetica Neue", "Times New Roman", Arial;
 .box{
     border:3px; 
     border-style:solid; 
-    border-color:#FF0000;
+    border-color:#0400ff;
     padding: 1em;
 }
