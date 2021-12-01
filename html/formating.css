@@ -1,13 +1,16 @@
-h1{wwidth:50%}
 a {color: yellow; text-decoration: none;}
 a:hover {color: blue; text-decoration: none;}
 
 nav ul {font-family: "Helvetica Neue", "Times New Roman", Arial;
     font-size: 16pt;
     padding: 10px;
+    display:flex;
+    justify-content:space-evenly;
     border: 6px solid darkblue;
-    display: inline-block;
     list-style: none;}
+nav li {
+	display:inline;
+}
 label{
     margin: 10px;
 }
@@ -25,8 +28,10 @@ input{
     font-family: sans-serif, "Times New Roman", Helvetica;}
 
 .logo {alignment: right;}
+
 .mainbody {background-color: red;
     color: aliceblue}
+
 .box {
     margin: auto;
     width: 300px;
