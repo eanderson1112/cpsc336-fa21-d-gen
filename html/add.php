@@ -6,7 +6,8 @@
 <link rel="stylesheet" href="formating.css">
 </head>
 <body>
-    <div >
+    <h1>Add an Item to the inventory</h1>
+
     <form class = box action="add.php" method="post">
     <label for="ID">Item ID:</label><br>
     <input type = "text" name = "ID" id = "ID"><br>
@@ -30,6 +31,5 @@
             echo "Some error occurred";
         }
     ?>
-    </div>
 </body>
 </html>

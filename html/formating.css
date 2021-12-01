@@ -1,9 +1,4 @@
-
-body {background-color: red;
-    color: aliceblue}
-
-
-
+h1{wwidth:50%}
 a {color: yellow; text-decoration: none;}
 a:hover {color: blue; text-decoration: none;}
 
@@ -14,7 +9,10 @@ nav ul {font-family: "Helvetica Neue", "Times New Roman", Arial;
     display: inline-block;
     list-style: none;}
 label{
-    padding: 10px;
+    margin: 10px;
+}
+input{
+    margin: 10px;
 }
 .center {
     position: center;
@@ -28,13 +26,19 @@ label{
 
 .logo {alignment: right;}
 
-.item{
 
+
+.box {
+    margin: auto;
+    width: 300px;
+    border: 3px solid green;
+    padding: 10px;
 }
-
-.box{
-    border:3px; 
-    border-style:solid; 
-    border-color:#0400ff;
-    padding: 1em;
+.box div{
+	padding: 10px;
+}
+.box div div{
+	padding-left:150px;
+	text-align:right;
+    display:inline;
 }

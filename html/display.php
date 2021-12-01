@@ -7,16 +7,17 @@
 </head>
 <body>
     <div class = box>
-    <?php
-        require "connect.php";
-        $query = "SELECT * FROM Product";
-        $result=mysqli_query($conn, $query);
-        echo "<b>Item Name<br>Item ID<div>Qty</div></b>";
-        while ($row = mysqli_fetch_assoc($result)){
-            echo $row["name"]."<br>";
-            echo $row["barcode"]."<div>".$row['quantity']."</div>";
-            }
-        ?>
+        <div style="font-weight:bold">Item Name<br>Item ID<div>Qty</div>
+            <?php
+            require "connect.php";
+            $query = "SELECT * FROM Product";
+            $result=mysqli_query($conn, $query);
+            while ($row = mysqli_fetch_assoc($result)){
+                echo "<div>".$row["name"]."<br>";
+                echo $row["barcode"]."<div>".$row['quantity']."</div></div>";
+                }
+            ?>
+        </div>
     </div>
 </body>
 </html>
