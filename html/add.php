@@ -6,8 +6,8 @@
 <link rel="stylesheet" href="formating.css">
 </head>
 <body>
-    <div class = box>
-    <form action="add.php" method="post">
+    <div >
+    <form class = box action="add.php" method="post">
     <label for="ID">Item ID:</label><br>
     <input type = "text" name = "ID" id = "ID"><br>
     <label for="Name">Item Name:</label><br>
