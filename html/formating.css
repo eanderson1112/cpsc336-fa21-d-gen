@@ -25,9 +25,8 @@ input{
     font-family: sans-serif, "Times New Roman", Helvetica;}
 
 .logo {alignment: right;}
-
-
-
+.mainbody {background-color: red;
+    color: aliceblue}
 .box {
     margin: auto;
     width: 300px;
