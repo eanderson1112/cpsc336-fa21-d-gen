@@ -18,7 +18,6 @@
     <div class = box>
         <div style="font-weight:bold">Item Name<br>Item ID<div>Qty</div>
             <?php
-            if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 require "connect.php";
                 $query = "SELECT * FROM Product";
                 $result=mysqli_query($conn, $query);
@@ -26,7 +25,6 @@
                     echo "<div>".$row["name"]."<br>";
                     echo $row["barcode"]."<div>".$row['quantity']."</div></div><br>";
                     }
-            }
             ?>
         </div>
     </div>
